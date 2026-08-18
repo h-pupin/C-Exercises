@@ -14,7 +14,7 @@ int main(){
             scanf("%d",&matriz[i][j]);
         }
     }
-//TODO - trocar linha 1 cm linha 4 e trocar coluna 0 cm coluna 3
+
 
     int matrizTrocada [linha][coluna] = {};
 
@@ -40,7 +40,6 @@ int main(){
     }
 
 
-//TODO - fazer 2 prints, um com o antes e um com dps
     printf("\nMatriz primária\n");
     for (int i = 0; i < linha; i++)
     {
