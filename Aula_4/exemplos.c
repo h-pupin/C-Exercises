@@ -53,6 +53,7 @@ int main(){
     isalnum(); //testa se é numerico ou alfabeto, nao permite caracteres especiais(@,#,$)
     isspace(); //ver se tem espaço
 
+    while (getchar() != '\n'); //limpeza de buffer
 
     return 0;
 }
